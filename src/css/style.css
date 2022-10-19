@@ -1,0 +1,167 @@
+a,
+h1,
+h2,
+h3,
+p {
+    font-family: 'Signika', sans-serif
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+header {
+    background-color: #000;
+    height: 8em;
+    margin-bottom: 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header__image {
+    height: 150px;
+    width: 150px;
+}
+
+.header__button {
+    width: 225px;
+    height: 50px;
+    background-color: #FFDE59;
+    color: #000;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 50px;
+    box-shadow: 1px 1px 5px #363636;
+    transition: 0.15s;
+}
+
+.header__button:hover {
+    background-color: #FFED8B;
+}
+
+/* Main */
+.apresentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 125px;
+}
+
+.apresentation__image {
+    width: 400px;
+}
+
+.apresentation__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+}
+
+.apresentation__title {
+    color: #FFDE59;
+    font-size: 3em;
+}
+
+.course,
+.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 120px;
+    height: 300px;
+}
+
+.course__title,
+.benefits__title {
+    font-size: 3em;
+    color: #FFDE59;
+}
+
+.course__description,
+.benefits__description {
+    text-align: justify;
+    max-width: 500px;
+}
+
+.button__container {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.button__link {
+    width: 500px;
+    height: 80px;
+    border: 0;
+    border-radius: 2px;
+    background-color: #FFDE59;
+    font-size: 2.5em;
+    box-shadow: 1px 1px 6px #363636;
+}
+
+.button__link:hover {
+    background-color: #FFED8B;
+    cursor: pointer;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+.author__image {
+    border-radius: 100%;
+}
+
+.author__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.author__description {
+    max-width: 500px;
+}
+
+.icons__container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.icons {
+    width: 25px;
+    height: 25px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__name {
+    color: #FFDE59;
+}
+
+.politician__container {
+    display: flex;
+    gap: 20px;
+}
+
+.politician__container a {
+    color: #fff;
+}
+
